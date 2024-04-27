@@ -1,0 +1,40 @@
+
+/* подлючение normalize */
+@import url(./normalize.css);
+/* подлючение шрифта */
+@import url(../../public/fonts/TTCommons/TTCommons.css);
+/* подлючение анимация */
+@import url(./keyframes.css);
+* {
+  font-family: "TTCommons", sans-serif;
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 40px;
+  max-width: 1298px;
+  display: flex;
+}
+
+.btn {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%; 
+}
+
+:root {
+  --color-logo: #101010;
+  --color-text-main: #101010;
+  --color-text-btn-head: #ffffff;
+  --color-bg-btn-head: #101010;
+  --color-bg-footer: #E2BEFF;
+ }

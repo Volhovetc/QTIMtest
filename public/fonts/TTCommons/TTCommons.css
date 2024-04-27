@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "TTCommons";
+  font-style: normal;
+  font-weight: 400;
+  src: local("TTCommonsRegular");
+  src: url('TTCommonsRegular.eot') format('embedded-opentype'),
+  url('TTCommonsRegular.woff2') format('woff2'),
+  url('TTCommonsRegular.woff') format('woff'),
+  url('TTCommonsRegular.ttf') format('truetype'),
+  url('TTCommonsRegular.svg#TTCommonsRegular') format('svg');
+}

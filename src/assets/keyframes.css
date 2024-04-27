@@ -1,0 +1,11 @@
+/* использует для поднятия карточки*/
+@keyframes translateUp {
+  from {
+    
+  }
+
+  to {
+    transform: translateY(-30px);
+  }
+}
+
